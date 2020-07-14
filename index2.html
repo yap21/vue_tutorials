@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios@0.12.0/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
+    <style>
+        div {
+            padding: 1em;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="watch-example">
+        <p>
+            yes/no 질문을 물어보세요:
+            <input v-model="question">
+        </p>
+        <img :src="url"/>
+        <p>{{ answer }}</p>
+    </div>
+    <script src="app2.js"></script>
+</body>
+
+</html>
